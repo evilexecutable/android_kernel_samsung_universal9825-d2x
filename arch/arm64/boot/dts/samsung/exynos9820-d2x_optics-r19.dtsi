@@ -69,7 +69,6 @@
 		als_rear,ir_spec = <0 500000 0 500000>;
 		als_rear,clear_spec = <0 500000 0 500000>;
 		als_rear,icratio_spec = <0 10000 0 10000>;
-		/*pwms = <&sec_pwm 1 5000000 0>; /*  PWM channel, period(ns),  polarity */
 		pwm-names = "cam_torch_en";
 	};
 };
