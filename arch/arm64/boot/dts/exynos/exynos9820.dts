@@ -40,7 +40,12 @@
 	compatible = "samsung,armv8", "samsung,exynos9820";
 	dtb-hw_rev = <0>;
 	dtb-hw_rev_end = <255>;
-
+	model_info-chip = <9820>;
+	model_info-platform = "android";
+	model_info-subtype = "samsung";
+	model_info-hw_rev = <24>;
+	model_info-hw_rev_end = <255>;
+	
 	interrupt-parent = <&gic>;
 	#address-cells = <2>;
 	#size-cells = <1>;
